@@ -35,6 +35,4 @@ class Bot(private val token: String, private val listeners: List<Any>) {
         builder.setStatus(OnlineStatus.ONLINE)
         return builder.build()
     }
-
-
 }
