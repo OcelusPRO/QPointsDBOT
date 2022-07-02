@@ -18,6 +18,7 @@ data class Configuration(
     val token: String = "Insert token here",
     val defaultStatus: Status = Status(),
     val apiURL: String = "http://localhost:8080",
+    val apiKey: String = "",
 ) {
     companion object {
         fun loadConfiguration(file: File): Configuration {
