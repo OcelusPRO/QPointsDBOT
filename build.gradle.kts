@@ -31,6 +31,8 @@ dependencies {
     implementation("org.jetbrains.lets-plot:lets-plot-kotlin-jvm:3.1.1")
     implementation("org.apache.xmlgraphics:batik-transcoder:1.14")
     implementation("org.apache.xmlgraphics:batik-codec:1.14")
+
+    implementation("org.jetbrains.exposed:exposed-jodatime:0.38.2")
 }
 
 tasks.test {
